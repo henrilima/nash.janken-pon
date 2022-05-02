@@ -16,21 +16,21 @@ function select(uID) {
         if (uID === 1) {
             document.getElementById(`box${uID}`).style.animation =
                 "pulse-blue 2s infinite";
-            document.getElementById("userIMG").src = "./../assets/rock.png";
+            document.getElementById("userIMG").src = "./assets/rock.png";
             document.getElementById("userBOX").style.backgroundColor =
                 "#87cefa";
             lastSelected = uID;
         } else if (uID === 2) {
             document.getElementById(`box${uID}`).style.animation =
                 "pulse-yellow 2s infinite";
-            document.getElementById("userIMG").src = "./../assets/paper.png";
+            document.getElementById("userIMG").src = "./assets/paper.png";
             document.getElementById("userBOX").style.backgroundColor =
                 "#ffff63";
             lastSelected = uID;
         } else if (uID === 3) {
             document.getElementById(`box${uID}`).style.animation =
                 "pulse-red 2s infinite";
-            document.getElementById("userIMG").src = "./../assets/scissor.png";
+            document.getElementById("userIMG").src = "./assets/scissor.png";
             document.getElementById("userBOX").style.backgroundColor =
                 "#ff4f4f";
             lastSelected = uID;
@@ -50,14 +50,14 @@ function start() {
     result = mix;
 
     const intervalAnimation1 = setInterval(() => {
-        document.getElementById("botIMG").src = "./../assets/rock.png";
+        document.getElementById("botIMG").src = "./assets/rock.png";
         document.getElementById("botIMG").style.zIndex = "1";
     }, 200);
     const intervalAnimation2 = setInterval(() => {
-        document.getElementById("botIMG").src = "./../assets/paper.png";
+        document.getElementById("botIMG").src = "./assets/paper.png";
     }, 400);
     const intervalAnimation3 = setInterval(() => {
-        document.getElementById("botIMG").src = "./../assets/scissor.png";
+        document.getElementById("botIMG").src = "./assets/scissor.png";
     }, 600);
 
     setTimeout(() => {
