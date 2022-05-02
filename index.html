@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./stylesheet/style.css" />
+        <title>Janken-pon</title>
+    </head>
+    <body>
+        <section>
+            <span>
+                <div class="box" id="box1" onclick="select(1)">
+                    <img src="./assets/rock.png" alt="rock" draggable="false" />
+                </div>
+                <div class="box" id="box2" onclick="select(2)">
+                    <img
+                        src="./assets/paper.png"
+                        alt="paper"
+                        draggable="false"
+                    />
+                </div>
+                <div class="box" id="box3" onclick="select(3)">
+                    <img
+                        src="./assets/scissor.png"
+                        alt="scissor"
+                        draggable="false"
+                    />
+                </div>
+            </span>
+            <button type="button" id="play" onclick="start()">Jogar</button>
+        </section>
+        <section class="sidebar">
+            <h1>Resultado</h1>
+            <h3 id="display">User VS Bot</h3>
+            <span>
+                <div class="box boxVoid" id="userBOX">
+                    <img src="" draggable="false" id="userIMG" />
+                </div>
+                <div class="box boxVoid" id="botBOX">
+                    <img src="" draggable="false" id="botIMG" />
+                </div>
+            </span>
+        </section>
+
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>
