@@ -66,13 +66,13 @@ function start() {
         clearInterval(intervalAnimation3);
 
         if (mix === 1) {
-            document.getElementById("botIMG").src = "./../assets/rock.png";
+            document.getElementById("botIMG").src = "./assets/rock.png";
             document.getElementById("botBOX").style.backgroundColor = "#87cefa";
         } else if (mix === 2) {
-            document.getElementById("botIMG").src = "./../assets/paper.png";
+            document.getElementById("botIMG").src = "./assets/paper.png";
             document.getElementById("botBOX").style.backgroundColor = "#ffff63";
         } else if (mix === 3) {
-            document.getElementById("botIMG").src = "./../assets/scissor.png";
+            document.getElementById("botIMG").src = "./assets/scissor.png";
             document.getElementById("botBOX").style.backgroundColor = "#ff4f4f";
         }
 
