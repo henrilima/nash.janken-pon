@@ -1,10 +1,6 @@
-# Janken-Pon
+# Global Chat
 
-### <b>View:</b> [clique aqui](https://henrilima.github.io/nash.janken-pon/);
+### Projeto modificado e movido para o site da Chromac:
+https://chromacweb.cf/
 
- <br/>
-
-# Screenshots
-
-> ![Desktop](./assets/screen.png)
 And nothing else. :D
